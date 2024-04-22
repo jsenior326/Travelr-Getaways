@@ -46,7 +46,7 @@ if(this.addForm.valid){
         this.router.navigate(['']);
     },
       error: (error: any) => {
-        console.log('Error: ' + error);
+        console.log('Error: ' + error.message);
     }});
    }
  }
